@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--方案一属性-->
+    <declare-styleable name="ShadeTriangleView">
+        <!--遮罩层-->
+        <attr name="mask_image" format="reference" />
+        <!--左边的图片-->
+        <attr name="image_left" format="reference" />
+        <!--右边的图片-->
+        <attr name="image_right" format="reference" />
+    </declare-styleable>
+
+    <!--方案二属性-->
+    <declare-styleable name="ShadeTriangleTotalForRankView">
+        <!--三张图在一起的图-->
+        <attr name="image_total" format="reference" />
+        <!--往复一次需要的时间-->
+        <attr name="shade_duration" format="float" />
+    </declare-styleable>
+</resources>
